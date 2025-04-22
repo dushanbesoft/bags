@@ -19,7 +19,7 @@ export const Header = memo(() => {
                     Bags
                 </div>
                 <div className="text-[#E5E3F2] text-[14px] hover:text-[#7752FF] cursor-pointer">
-                    Craetors
+                    Creators
                 </div>
                 <div className="text-[#E5E3F2] text-[14px] hover:text-[#7752FF] cursor-pointer">
                     Ranks

@@ -19,6 +19,7 @@ export default function ContentAnimation() {
 
                     <div className="w-[442px] h-[251px] right-0 bottom-[10px] absolute mix-blend-soft-light  bg-[#7752FF] bg-opacity-20 " />
                 </div>
+                <div className="w-full h-[1px] absolute bg-shadow_white shadow-content_animation2 bottom-[-50px] group-hover:bottom-[-30px] transition-all ease-linear"></div>
             </div>
 
             {/* Item 2 */}
@@ -39,6 +40,7 @@ export default function ContentAnimation() {
 
                     <div className="w-[442px] h-[251px] right-0 bottom-[10px] absolute mix-blend-soft-light  bg-[#7752FF] bg-opacity-20 " />
                 </div>
+                <div className="w-full h-[1px] absolute bg-shadow_white shadow-content_animation2 bottom-[-50px] group-hover:bottom-[-30px] transition-all ease-linear"></div>
             </div>
 
             {/* Item 3 */}
@@ -59,6 +61,7 @@ export default function ContentAnimation() {
 
                     <div className="w-[442px] h-[251px] right-0 bottom-[10px] absolute mix-blend-soft-light  bg-[#7752FF] bg-opacity-20 " />
                 </div>
+                <div className="w-full h-[1px] absolute bg-shadow_white shadow-content_animation2 bottom-[-50px] group-hover:bottom-[-30px] transition-all ease-linear"></div>
             </div>
         </div>
     );

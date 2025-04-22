@@ -109,6 +109,8 @@ module.exports = {
                     'linear-gradient(90deg, rgba(0, 129, 73, 0.08) 0%, rgba(51, 186, 128, 0.08) 100%)',
 
                 // modal_bg_2: 'linear-gradient(180deg, #1C1C1C 0%, #1C1C1C 100%)',
+                shadow_white:
+                    'linear-gradient(1deg, rgb(136 136 137) 0%, rgb(54 39 102) 100%)',
             },
 
             boxShadow: {
@@ -131,6 +133,7 @@ module.exports = {
 
                 primarybox: '0px 0px 12px 0px #00FF7F40',
                 content_animation: '2px 6px 12px 0px #26203D',
+                content_animation2: '-3px -20px 20px 20px #baa5f445',
             },
             dropShadow: {
                 1: '0px 1px 0px #E2E8F0',
