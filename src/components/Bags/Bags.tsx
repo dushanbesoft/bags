@@ -6,6 +6,12 @@ export default function Bags() {
             <BagItem />
             <BagItem />
             <BagItem />
+            <BagItem />
+            <BagItem />
+            <BagItem />
+            <BagItem />
+            <BagItem />
+            <BagItem />
         </div>
     );
 }

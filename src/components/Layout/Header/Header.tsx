@@ -3,7 +3,7 @@ import { memo } from 'react';
 
 export const Header = memo(() => {
     return (
-        <div className="w-full flex justify-between items-center py-[11px] px-[16px]  items-center bg-[#141016] h-[64px] rounded-[16px]">
+        <div className="w-full flex justify-between items-center py-[11px] px-[16px]  bg-[#141016] h-[64px] rounded-[16px]">
             <div className="flex justify-start items-center  gap-[24px]">
                 <div className="w-[154px] h-[33px]">
                     <Logo />
@@ -15,9 +15,15 @@ export const Header = memo(() => {
                         placeholder="Search bags,agents..."
                     />
                 </div>
-                <div className="text-[#E5E3F2] text-[14px]">Bags</div>
-                <div className="text-[#E5E3F2] text-[14px]">Craetors</div>
-                <div className="text-[#E5E3F2] text-[14px]">Ranks</div>
+                <div className="text-[#E5E3F2] text-[14px] hover:text-[#7752FF] cursor-pointer">
+                    Bags
+                </div>
+                <div className="text-[#E5E3F2] text-[14px] hover:text-[#7752FF] cursor-pointer">
+                    Craetors
+                </div>
+                <div className="text-[#E5E3F2] text-[14px] hover:text-[#7752FF] cursor-pointer">
+                    Ranks
+                </div>
             </div>
 
             <div className="flex items-center gap-[8px]">

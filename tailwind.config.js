@@ -130,6 +130,7 @@ module.exports = {
                 8: '1px 0 0 #313D4A, -1px 0 0 #313D4A, 0 1px 0 #313D4A, 0 -1px 0 #313D4A, 0 3px 13px rgb(0 0 0 / 8%)',
 
                 primarybox: '0px 0px 12px 0px #00FF7F40',
+                content_animation: '2px 6px 12px 0px #26203D',
             },
             dropShadow: {
                 1: '0px 1px 0px #E2E8F0',
