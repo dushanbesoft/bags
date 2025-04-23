@@ -1,8 +1,8 @@
-import { XIcon, UserIcon, LineIcon, EnergyIcon } from "app/assets/images";
+import { XIcon, UserIcon, LineIcon, EnergyIcon } from 'app/assets/images';
 
 export default function BagItem() {
     return (
-        <div className="w-[442px] h-[266px] p-[16px] rounded-[16px] bg-[#141016] flex flex-col gap-[12px]">
+        <div className="w-full md:w-[442px] h-[266px] p-[16px] rounded-[16px] bg-[#141016] flex flex-col gap-[12px]">
             {/* Header Bag */}
             <div className="flex justify-between items-center">
                 <div className="flex gap-[8px]">

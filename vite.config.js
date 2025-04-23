@@ -4,6 +4,8 @@ import react from '@vitejs/plugin-react';
 import tailwindcss from 'tailwindcss';
 import path from 'path';
 // https://vite.dev/config/
+const allowedHosts = ['localhost', '127.0.0.1', 'youdomain.com'];
+
 export default defineConfig({
     css: {
         postcss: {

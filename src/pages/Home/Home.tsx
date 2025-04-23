@@ -6,7 +6,7 @@ import MenuComponent from 'app/components/MenuComponent/MenuComponent';
 export default function Home() {
     return (
         <div className="flex flex-col gap-[16px]">
-            <div className="flex flex-col gap-[32px]">
+            <div className="flex flex-col gap-[24px] md:gap-[32px]">
                 {/* Content Animaton */}
                 <ContentAnimation />
                 {/* Menu Navigation  */}
