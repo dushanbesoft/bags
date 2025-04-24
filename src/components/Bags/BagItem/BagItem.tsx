@@ -2,16 +2,16 @@ import { XIcon, UserIcon, LineIcon, EnergyIcon } from 'app/assets/images';
 
 export default function BagItem() {
     return (
-        <div className="w-full md:w-[442px] h-[266px] p-[16px] rounded-[16px] bg-[#141016] flex flex-col gap-[12px] md:min-h-[156px] shadow-content_animation overflow-hidden transition-all  ease-linear  will-change-transform hover:translate-y-[-4px] hover:border-[1px] border-[#2C2637] cursor-pointer">
+        <div className="w-full md:w-[442px] h-[266px] p-[16px] rounded-[16px] bg-[#141016] flex flex-col gap-[12px] md:min-h-[156px] shadow-content_animation overflow-hidden transition-all  ease-linear  will-change-transform hover:translate-y-[-4px] cursor-pointer">
             {/* Header Bag */}
-            <div className="flex justify-between items-center">
+            <div className="flex justify-between items-center h-[50px]">
                 <div className="flex gap-[8px]">
                     <img
                         className="w-[50px] h-[50px] rounded-[12px]"
                         src="/avatar.png"
                     />
                     <div className="flex gap-[4px] items-center">
-                        <div className="text-[16px] font-semibold text-[#E5E3F2]">
+                        <div className="text-[16px] font-semibold text-[#E5E3F2] leading-[20px]">
                             @KUTRAAR23
                         </div>
                         <div className="w-[24px] h-[24px] border-[1px] border-[#E5E3F2] rounded-[5px] flex justify-center items-center">
@@ -20,8 +20,8 @@ export default function BagItem() {
                     </div>
                 </div>
 
-                <button className="w-[96px] h-[32px] px-[12px] py-[10px] flex gap-[4px] justify-center items-center border-[1px] border-[#393847] rounded-[8px]">
-                    <span className="font-medium text-[14px] text-[#E5E3F2]">
+                <button className="w-[96px] h-[32px] px-[12px] py-[10px] flex gap-[4px] justify-center items-center border-[1px] border-[#393847] hover:bg-[#26262B] hover:border-none transition-all ease-linear rounded-[8px]">
+                    <span className="font-medium text-[14px] text-[#E5E3F2] leading-[17px] ">
                         Follow
                     </span>
                     <UserIcon />
@@ -29,30 +29,30 @@ export default function BagItem() {
             </div>
 
             {/* Perfomance */}
-            <div className="flex items-center rounded-[12px] border-[1px] border-[#2C2637]">
+            <div className="flex items-center rounded-[12px] border-[1px] border-[#2C2637] h-[48px]">
                 <div className="flex flex-col justify-center items-center gap-[2px] w-1/2">
-                    <div className="text-[#6B6682] text-[12px] ">
-                        Performance
+                    <div className="text-[#6B6682] text-[12px] leading-[14px]">
+                        Created bags
                     </div>
-                    <div className="text-[#38D07E] font-medium text-[16px]">
-                        +330%
+                    <div className="text-[#FFF] font-medium text-[16px] leading-[18px]">
+                        999
                     </div>
                 </div>
                 <div className="">
                     <LineIcon />
                 </div>
                 <div className="flex flex-col justify-center items-center gap-[2px] w-1/2">
-                    <div className="text-[#6B6682] text-[12px] ">
-                        Performance
+                    <div className="text-[#6B6682] text-[12px] leading-[14px] ">
+                        Creator's Performance (7d)
                     </div>
-                    <div className="text-[#E5E3F2] font-medium text-[16px]">
-                        +330%
+                    <div className="text-[#38D07E] font-medium text-[16px] leading-[18px]">
+                        +0.05%
                     </div>
                 </div>
             </div>
 
             {/* Operating Part */}
-            <div className="bg-[#1C172B] border-[1px] border-[#2C2637] rounded-[12px] p-[12px] flex justify-between items-center ">
+            <div className="bg-[#1C172B] border-[1px] border-[#2C2637] rounded-[12px] p-[12px] flex justify-between items-center h-[60px] ">
                 <div className="flex gap-[8px] justify-center items-center">
                     <img
                         src="company.png"
@@ -63,19 +63,19 @@ export default function BagItem() {
                     </div>
                 </div>
 
-                <div className="text-[24px] font-medium text-[#38D07E]">
+                <div className="text-[24px] font-medium text-[#38D07E] leading-[28px]">
                     +330%
                 </div>
             </div>
 
             {/* Follow Container */}
-            <div className="flex justify-between items-center">
-                <div className="text-[#6B6682] flex flex-col gap-[2px]">
-                    <div className="text-[12px]">Created</div>
-                    <div className="text-[14px]">4 min ago</div>
+            <div className="flex justify-between items-center h-[40px]">
+                <div className="text-[#6B6682] flex flex-col gap-[2px] ">
+                    <div className="text-[12px] leading-[14px]">Created</div>
+                    <div className="text-[14px] leading-[16px]">4 min ago</div>
                 </div>
 
-                <button className="w-[141px] h-[40px] rounded-[12px] bg-[#7752FF] px-[10px] py-[2px] flex justify-center items-center gap-[6px]">
+                <button className="w-[141px] h-[40px] rounded-[12px] bg-[#7752FF] hover:bg-[#5F41CC] transition-all ease-linear px-[10px] py-[2px] flex justify-center items-center gap-[6px]">
                     <EnergyIcon />
                     <span className="text-[#FFF] font-semibold text-[14px]">
                         Quick Follow

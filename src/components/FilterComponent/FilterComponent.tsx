@@ -17,19 +17,19 @@ export default function FilterComponent() {
 
                 {/* Status */}
                 <div className="h-[42px] rounded-[12px] p-[4px] bg-[#26203D] justify-between items-center hidden md:flex ">
-                    <div className=" px-[12px] py-[8px] flex gap-[4px] justify-center items-center group cursor-pointer bg-[#141016] rounded-[8px] ">
-                        <div className="text-[#6B6682] group-hover:text-[#E5E3F2] text-[14px] font-medium transition-all easy-lenear">
+                    <div className=" w-[78px] h-[34px] px-[12px] py-[8px] flex gap-[4px] justify-center items-center group cursor-pointer bg-[#141016] rounded-[8px] ">
+                        <div className="text-[#FFF] group-hover:text-[#E5E3F2] text-[14px] font-medium transition-all easy-lenear">
                             Top
                         </div>
                         <ArrowLineIcon />
                     </div>
-                    <div className="px-[12px] py-[8px] flex gap-[4px] justify-center items-center group cursor-pointer ">
+                    <div className=" w-[78px] h-[34px] px-[12px] py-[8px] flex gap-[4px] justify-center items-center group cursor-pointer ">
                         <div className="text-[#6B6682] group-hover:text-[#E5E3F2] text-[14px] font-medium transition-all easy-lenear">
                             New
                         </div>
                         <StartIcon />
                     </div>
-                    <div className="px-[12px] py-[8px] flex gap-[4px] justify-center items-center group cursor-pointer ">
+                    <div className="w-[96px] h-[34px] px-[12px] py-[8px] flex gap-[4px] justify-center items-center group cursor-pointer ">
                         <div className="text-[#6B6682] group-hover:text-[#E5E3F2] text-[14px] font-medium transition-all easy-lenear">
                             Paused
                         </div>
@@ -39,27 +39,27 @@ export default function FilterComponent() {
 
                 {/* Times */}
                 <div className="h-[42px] rounded-[12px] p-[4px] bg-[#26203D] flex justify-between items-center ">
-                    <div className="w-[58px] px-[12px] py-[8px] flex gap-[4px] justify-center items-center group cursor-pointer bg-[#141016] rounded-[8px] ">
-                        <div className="text-[#6B6682] group-hover:text-[#E5E3F2] text-[14px] font-medium transition-all easy-lenear">
+                    <div className="w-[58px] h-[34px] px-[12px] py-[8px] flex gap-[4px] justify-center items-center group cursor-pointer bg-[#141016] rounded-[8px] ">
+                        <div className="text-[#FFF] group-hover:text-[#E5E3F2] text-[14px] font-medium transition-all easy-lenear">
                             15m
                         </div>
                     </div>
-                    <div className="w-[58px] px-[12px] py-[8px]  gap-[4px] justify-center items-center group cursor-pointer hidden md:flex ">
+                    <div className="w-[48px] h-[34px] px-[12px] py-[8px]  gap-[4px] justify-center items-center group cursor-pointer hidden md:flex ">
                         <div className="text-[#6B6682] group-hover:text-[#E5E3F2] text-[14px] font-medium transition-all easy-lenear">
                             1h
                         </div>
                     </div>
-                    <div className="w-[58px] px-[12px] py-[8px] gap-[4px] justify-center items-center group cursor-pointer hidden md:flex ">
+                    <div className="w-[48px] h-[34px]  px-[12px] py-[8px] gap-[4px] justify-center items-center group cursor-pointer hidden md:flex ">
                         <div className="text-[#6B6682] group-hover:text-[#E5E3F2] text-[14px] font-medium transition-all easy-lenear">
                             24h
                         </div>
                     </div>
-                    <div className="w-[58px] px-[12px] py-[8px] gap-[4px] justify-center items-center group cursor-pointer hidden md:flex ">
+                    <div className="w-[48px] h-[34px]   px-[12px] py-[8px] gap-[4px] justify-center items-center group cursor-pointer hidden md:flex ">
                         <div className="text-[#6B6682] group-hover:text-[#E5E3F2] text-[14px] font-medium transition-all easy-lenear">
                             7d
                         </div>
                     </div>
-                    <div className="w-[58px] px-[12px] py-[8px] gap-[4px] justify-center items-center group cursor-pointer hidden md:flex ">
+                    <div className="w-[48px] h-[34px]   px-[12px] py-[8px] gap-[4px] justify-center items-center group cursor-pointer hidden md:flex ">
                         <div className="text-[#6B6682] group-hover:text-[#E5E3F2] text-[14px] font-medium transition-all easy-lenear">
                             All
                         </div>
@@ -81,7 +81,7 @@ export default function FilterComponent() {
                             value=""
                             className="sr-only peer"
                         />
-                        <div className="relative w-[32px] h-[19px] bg-[#7752FF] peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px]  after:bg-[white] after:border-gray-300 after:border after:rounded-full after:h-[15px] after:w-[15px] after:transition-all dark:border-gray-600 peer-checked:bg-[#7752FF] dark:peer-checked:bg-[#7752FF]"></div>
+                        <div className="relative w-[32px] h-[19px] bg-[#26203D] peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px]  after:bg-[white] after:border-gray-300 after:border after:rounded-full after:h-[15px] after:w-[15px] after:transition-all dark:border-gray-600 peer-checked:bg-[#7752FF] dark:peer-checked:bg-[#7752FF]"></div>
                     </label>
                 </div>
             </div>

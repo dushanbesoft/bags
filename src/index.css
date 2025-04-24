@@ -10,22 +10,22 @@
     @font-face {
         font-family: SoraRegular;
         font-weight: 400;
-        src: url(app/assets/fonts/Sora-Regular.ttf) format('woff');
+        src: url(/fonts/Sora-Regular.ttf) format('woff');
     }
     @font-face {
         font-family: SoraBold;
         font-weight: 500;
-        src: url(app/assets/fonts/Sora-Bold.ttf) format('woff');
+        src: url(/fonts/Sora-Bold.ttf) format('woff');
     }
     @font-face {
         font-family: SoraMedium;
         font-weight: 500;
-        src: url(app/assets/fonts/Sora-Medium.ttf) format('woff');
+        src: url(/fonts/Sora-Medium.ttf) format('woff');
     }
     @font-face {
         font-family: SoraSemiBold;
         font-weight: 600;
-        src: url(app/assets/fonts/Sora-SemiBold.ttf) format('woff');
+        src: url(/fonts/Sora-SemiBold.ttf) format('woff');
     }
 }
 
