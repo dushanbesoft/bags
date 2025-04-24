@@ -1,11 +1,11 @@
-import { SearchIcon, ArrowLineIcon, StartIcon, ZIcon } from 'app/assets/images';
+import { SearchIcon, ArrowLineIcon, StartIcon, ZIcon, ArrowUpLine } from 'app/assets/images';
 import UpdateIcon from 'app/assets/images/UpdateIcon';
 
 export default function FilterComponent() {
     return (
         <div className="flex justify-between items-center">
-            <div className="flex gap-[12px]">
-                <div className="w-[144px] md:w-[480px] h-[42px] p-[10px] flex items-center bg-[#1B1A1F] border-[1px] border-[#2C2637] gap-[10px] rounded-[16px] overflow-hidden">
+            <div className="flex gap-[8px] md:gap-[12px]">
+                <div className="w-[144px] md:w-[480px] h-[42px] px-[10px] py-[12px] flex items-center bg-[#1B1A1F] border-[1px] border-[#2C2637] gap-[10px] rounded-[12px] md:rounded-[16px] overflow-hidden">
                     <div className="w-[22px] h-[22px]">
                         <SearchIcon />
                     </div>
@@ -14,6 +14,11 @@ export default function FilterComponent() {
                         placeholder="Search bags,agents..."
                     />
                 </div>
+
+                <div className='w-[42px] h-[42px] flex md:hidden justify-center items-center border-[1px] border-[#393847] rounded-[12px]'>
+                    <ArrowUpLine />
+                </div>
+                
 
                 {/* Status */}
                 <div className="h-[42px] rounded-[12px] p-[4px] bg-[#26203D] justify-between items-center hidden md:flex ">
@@ -38,28 +43,28 @@ export default function FilterComponent() {
                 </div>
 
                 {/* Times */}
-                <div className="h-[42px] rounded-[12px] p-[4px] bg-[#26203D] flex justify-between items-center ">
-                    <div className="w-[58px] h-[34px] px-[12px] py-[8px] flex gap-[4px] justify-center items-center group cursor-pointer bg-[#141016] rounded-[8px] ">
+                <div className="h-[42px] rounded-[12px] p-[4px] bg-none  md:bg-[#26203D]  flex justify-between items-center ">
+                    <div className="w-[58px] h-[42px] md:h-[34px] px-[12px] py-[8px] flex gap-[4px] justify-center items-center group cursor-pointer bg-none md:bg-[#141016] rounded-[12px] md:rounded-[8px] border-[1px] border-[#393847] md:border-none ">
                         <div className="text-[#FFF] group-hover:text-[#E5E3F2] text-[14px] font-medium transition-all easy-lenear">
                             15m
                         </div>
                     </div>
-                    <div className="w-[48px] h-[34px] px-[12px] py-[8px]  gap-[4px] justify-center items-center group cursor-pointer hidden md:flex ">
+                    <div className="w-[48px] h-[42px] md:h-[34px] px-[12px] py-[8px]  gap-[4px] justify-center items-center group cursor-pointer hidden md:flex ">
                         <div className="text-[#6B6682] group-hover:text-[#E5E3F2] text-[14px] font-medium transition-all easy-lenear">
                             1h
                         </div>
                     </div>
-                    <div className="w-[48px] h-[34px]  px-[12px] py-[8px] gap-[4px] justify-center items-center group cursor-pointer hidden md:flex ">
+                    <div className="w-[48px] h-[42px] md:h-[34px]  px-[12px] py-[8px] gap-[4px] justify-center items-center group cursor-pointer hidden md:flex ">
                         <div className="text-[#6B6682] group-hover:text-[#E5E3F2] text-[14px] font-medium transition-all easy-lenear">
                             24h
                         </div>
                     </div>
-                    <div className="w-[48px] h-[34px]   px-[12px] py-[8px] gap-[4px] justify-center items-center group cursor-pointer hidden md:flex ">
+                    <div className="w-[48px] h-[42px] md:h-[34px]  px-[12px] py-[8px] gap-[4px] justify-center items-center group cursor-pointer hidden md:flex ">
                         <div className="text-[#6B6682] group-hover:text-[#E5E3F2] text-[14px] font-medium transition-all easy-lenear">
                             7d
                         </div>
                     </div>
-                    <div className="w-[48px] h-[34px]   px-[12px] py-[8px] gap-[4px] justify-center items-center group cursor-pointer hidden md:flex ">
+                    <div className="w-[48px] h-[42px] md:h-[34px]  px-[12px] py-[8px] gap-[4px] justify-center items-center group cursor-pointer hidden md:flex ">
                         <div className="text-[#6B6682] group-hover:text-[#E5E3F2] text-[14px] font-medium transition-all easy-lenear">
                             All
                         </div>

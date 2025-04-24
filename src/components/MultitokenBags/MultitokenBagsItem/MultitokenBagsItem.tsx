@@ -1,8 +1,15 @@
-import { XIcon, UserIcon, LineIcon, EnergyIcon } from 'app/assets/images';
+import {
+    XIcon,
+    UserIcon,
+    LineIcon,
+    EnergyIcon,
+    Token1ExampleIcon,
+    Token2ExampleIcon,
+} from 'app/assets/images';
 
-export default function BagItem() {
+export default function MultitokenBagsItem() {
     return (
-        <div className="w-full md:w-[442px] h-[266px] p-[16px] rounded-[16px] bg-[#141016] flex flex-col gap-[12px] md:min-h-[156px] shadow-content_animation overflow-hidden transition-all  ease-linear  will-change-transform hover:translate-y-[-4px] cursor-pointer">
+        <div className="w-full md:w-[442px] h-[314px] p-[16px] rounded-[16px] bg-[#141016] flex flex-col gap-[12px] md:min-h-[156px] shadow-content_animation overflow-hidden transition-all  ease-linear  will-change-transform hover:translate-y-[-4px] cursor-pointer">
             {/* Header Bag */}
             <div className="flex justify-between items-center h-[50px]">
                 <div className="flex gap-[8px]">
@@ -34,9 +41,9 @@ export default function BagItem() {
             <div className="flex items-center rounded-[12px] border-[1px] border-[#2C2637] h-[48px]">
                 <div className="flex flex-col justify-center items-center gap-[2px] w-1/2">
                     <div className="text-[#6B6682] text-[12px] leading-[14px]">
-                        Created bags
+                        Performance
                     </div>
-                    <div className="text-[#FFF] font-medium text-[16px] leading-[18px]">
+                    <div className="text-[#38D07E] font-medium text-[16px] leading-[18px]">
                         999
                     </div>
                 </div>
@@ -45,28 +52,52 @@ export default function BagItem() {
                 </div>
                 <div className="flex flex-col justify-center items-center gap-[2px] w-1/2">
                     <div className="text-[#6B6682] text-[12px] leading-[14px] ">
-                        Creator's Performance (7d)
+                        Creators Rank
                     </div>
-                    <div className="text-[#38D07E] font-medium text-[16px] leading-[18px]">
-                        +0.05%
+                    <div className="text-[#FFF] font-medium text-[16px] leading-[18px]">
+                        1570
                     </div>
                 </div>
             </div>
 
             {/* Operating Part */}
-            <div className="bg-[#1C172B] border-[1px] border-[#2C2637] rounded-[16px] md:rounded-[12px] p-[8px] md:p-[12px] flex justify-between items-center h-[52px] md:h-[60px] ">
-                <div className="flex gap-[8px] justify-center items-center">
-                    <img
-                        src="company.png"
-                        className="w-[36px] h-[36px] rounded-[8px]"
-                    />
-                    <div className="text-[14px] leading-[16px]  font-extrabold text-[#E5E3F2] w-full md:w-[232px]">
-                        Universal Operating System
+            <div className="bg-[#1C172B] border-[1px] border-[#2C2637] rounded-[12px] p-[12px] items-center h-[108px] flex flex-col gap-[12px] ">
+                <div className="flex justify-between w-full items-center ">
+                    <div className="flex gap-[8px] justify-center items-center">
+                        <img
+                            src="company.png"
+                            className="w-[36px] h-[36px] rounded-[8px]"
+                        />
+                        <div className="flex flex-col gap-[4px] ">
+                            <div className="text-[14px] font-semibold text-[#E5E3F2] leading-[16px] ">
+                                $LIOS
+                            </div>
+                            <div className="text-[#6B6682] text-[12px]  leading-[14px]">
+                                Universal Operating System
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="text-[24px] font-medium text-[#38D07E] leading-[28px]">
+                        +330%
                     </div>
                 </div>
-
-                <div className="text-[24px] font-medium text-[#38D07E] leading-[28px]">
-                    +330%
+                <div className="w-full border-t-[1px] border-[#2C2637]"></div>
+                <div className="flex gap-[8px] items-center justify-start w-full">
+                    <div className="text-[#6B6682] text-[12px] leading-[14px]">
+                        7 Tokens
+                    </div>
+                    <div className="flex">
+                        <div className="w-[24px] h-[24px]">
+                            <Token1ExampleIcon />
+                        </div>
+                        <div className="w-[24px] h-[24px] relative left-[-8px]">
+                            <Token2ExampleIcon />
+                        </div>
+                        <div className="w-[24px] h-[24px] relative left-[-16px]">
+                            <Token1ExampleIcon />
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -80,7 +111,7 @@ export default function BagItem() {
                 <button className="w-[141px] h-[40px] rounded-[12px] bg-[#7752FF] hover:bg-[#5F41CC] transition-all ease-linear px-[10px] py-[2px] flex justify-center items-center gap-[6px]">
                     <EnergyIcon />
                     <span className="text-[#FFF] font-semibold text-[14px] whitespace-nowrap">
-                        Quick Follow
+                        Quick Buy
                     </span>
                 </button>
             </div>
