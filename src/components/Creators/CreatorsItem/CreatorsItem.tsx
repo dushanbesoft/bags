@@ -9,7 +9,7 @@ import {
 
 export default function CreatorItem() {
     return (
-        <div className="group relative w-full h-[126px]  md:w-[259px] md:h-[335px] rounded-[16px] flex flex-row md:flex-col items-center gap-[0px] md:gap-[12px] bg-[#141016] transition-all  ease-linear  will-change-transform hover:translate-y-[-4px] cursor-pointer ">
+        <div className="group relative w-full h-[126px]  md:w-[259px] md:h-[335px] rounded-[16px] flex flex-row md:flex-col items-center gap-[0px] md:gap-[12px] bg-[#141016] transition-all  ease-linear  will-change-transform md:hover:translate-y-[-4px] cursor-pointer ">
             <div className="">
                 <img
                     className="hidden md:flex w-[126px] h-[126px] md:w-[259px] md:h-[197px] rounded-t-[16px]"
