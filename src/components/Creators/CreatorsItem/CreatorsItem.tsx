@@ -77,7 +77,7 @@ export default function CreatorItem() {
                     </div>
 
                     <div className="flex gap-[6px]">
-                        <div className="min-w-[78px] md:w-auto rounded-[10px] flex flex-col md:flex-row justify-between items-center md:items-center border-[1px] border-[#2C2637] h-[36px] md:h-[26px] px-[7px] py-[4px] md:py-[6px]">
+                        <div className="min-w-[78px] md:w-full rounded-[10px] flex flex-col md:flex-row justify-between items-center md:items-center border-[1px] border-[#2C2637] h-[36px] md:h-[26px] px-[7px] py-[4px] md:py-[6px]">
                             <span className="text-[9px] md:text-[12px] text-[#6B6682]">
                                 Created bags
                             </span>
