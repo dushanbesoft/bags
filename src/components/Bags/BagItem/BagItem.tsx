@@ -2,7 +2,7 @@ import { XIcon, UserIcon, LineIcon, EnergyIcon } from 'app/assets/images';
 
 export default function BagItem() {
     return (
-        <div className="w-full md:w-[442px] h-[266px] p-[16px] rounded-[16px] bg-[#141016] flex flex-col gap-[12px]">
+        <div className="w-full md:w-[442px] h-[266px] p-[16px] rounded-[16px] bg-[#141016] flex flex-col gap-[12px] md:min-h-[156px] shadow-content_animation overflow-hidden transition-all  ease-linear  will-change-transform hover:translate-y-[-4px] hover:border-[1px] border-[#2C2637] cursor-pointer">
             {/* Header Bag */}
             <div className="flex justify-between items-center">
                 <div className="flex gap-[8px]">

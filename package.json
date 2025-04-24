@@ -18,6 +18,7 @@
         "@typescript-eslint/eslint-plugin": "^8.26.0",
         "flowbite-react": "^0.10.2",
         "fuels": "^0.98.0",
+        "rc-slider": "^10.1.1",
         "react": "^19.0.0",
         "react-dom": "^19.0.0",
         "react-redux": "^9.2.0",
@@ -25,9 +26,7 @@
         "react-toastify": "^11.0.5",
         "recharts": "^2.15.1",
         "redux": "^5.0.1",
-        "redux-thunk": "^3.1.0",
-        "tailwindcss-font-inter": "^4.0.0",
-        "rc-slider": "^10.1.1"
+        "redux-thunk": "^3.1.0"
     },
     "devDependencies": {
         "@eslint/js": "^9.21.0",
@@ -35,6 +34,7 @@
         "@types/react-dom": "^19.0.4",
         "@vitejs/plugin-react": "^4.3.4",
         "autoprefixer": "^10.4.21",
+        "decimal.js": "^10.4.3",
         "eslint": "^9.21.0",
         "eslint-import-resolver-alias": "^1.1.2",
         "eslint-plugin-import": "^2.31.0",
@@ -45,8 +45,7 @@
         "postcss": "^8.5.3",
         "prettier": "3.5.3",
         "tailwindcss": "^3.4.17",
-        "vite": "^6.2.0",
-        "decimal.js": "^10.4.3"
+        "vite": "^6.2.0"
     },
     "engines": {
         "node": "22.14.0"

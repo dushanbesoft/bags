@@ -11,8 +11,7 @@ module.exports = {
     ],
     theme: {
         fontFamily: {
-            inter: ['Inter', 'sans-serif'],
-            sora: ['Sora-Regular'],
+            sora: ['SoraRegular'],
         },
 
         colors: {
@@ -169,5 +168,5 @@ module.exports = {
     corePlugins: {
         aspectRatio: false,
     },
-    plugins: [require('tailwindcss-font-inter'), require('flowbite/plugin')],
+    plugins: [require('flowbite/plugin')],
 };

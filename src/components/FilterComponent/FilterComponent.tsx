@@ -16,7 +16,7 @@ export default function FilterComponent() {
                 </div>
 
                 {/* Status */}
-                <div className=" h-[42px] rounded-[12px] p-[4px] bg-[#26203D] justify-between items-center hidden md:flex ">
+                <div className="h-[42px] rounded-[12px] p-[4px] bg-[#26203D] justify-between items-center hidden md:flex ">
                     <div className=" px-[12px] py-[8px] flex gap-[4px] justify-center items-center group cursor-pointer bg-[#141016] rounded-[8px] ">
                         <div className="text-[#6B6682] group-hover:text-[#E5E3F2] text-[14px] font-medium transition-all easy-lenear">
                             Top
@@ -38,7 +38,7 @@ export default function FilterComponent() {
                 </div>
 
                 {/* Times */}
-                <div className=" h-[42px] rounded-[12px] p-[4px] bg-[#26203D] flex justify-between items-center ">
+                <div className="h-[42px] rounded-[12px] p-[4px] bg-[#26203D] flex justify-between items-center ">
                     <div className="w-[58px] px-[12px] py-[8px] flex gap-[4px] justify-center items-center group cursor-pointer bg-[#141016] rounded-[8px] ">
                         <div className="text-[#6B6682] group-hover:text-[#E5E3F2] text-[14px] font-medium transition-all easy-lenear">
                             15m

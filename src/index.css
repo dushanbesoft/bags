@@ -1,8 +1,3 @@
-body {
-    font-family: Sora-Regular;
-    background-color: #1c172b;
-}
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -13,23 +8,28 @@ body {
 
 @layer base {
     @font-face {
-        font-family: Sora-Regular;
+        font-family: SoraRegular;
         font-weight: 400;
         src: url(app/assets/fonts/Sora-Regular.ttf) format('woff');
     }
     @font-face {
-        font-family: Sora-Bold;
+        font-family: SoraBold;
         font-weight: 500;
         src: url(app/assets/fonts/Sora-Bold.ttf) format('woff');
     }
     @font-face {
-        font-family: Sora-Medium;
+        font-family: SoraMedium;
         font-weight: 500;
         src: url(app/assets/fonts/Sora-Medium.ttf) format('woff');
     }
     @font-face {
-        font-family: Sora-SemiBold;
+        font-family: SoraSemiBold;
         font-weight: 600;
         src: url(app/assets/fonts/Sora-SemiBold.ttf) format('woff');
     }
+}
+
+body {
+    font-family: SoraRegular;
+    background-color: #1c172b;
 }

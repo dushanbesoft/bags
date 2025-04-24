@@ -37,7 +37,7 @@ export const Header = memo(() => {
             </div>
 
             <div className="flex items-center gap-[8px]">
-                <button className="gap-[6px] justify-center items-center rounded-[12px] bg-[#7752FF] w-[127px] h-[40px] px-[12px] py-[11px] hidden md:flex">
+                <button className="gap-[6px] justify-center items-center rounded-[12px] bg-[#7752FF] min-w-[127px] h-[40px] px-[12px] py-[11px] hidden md:flex">
                     <span className="text-[14px] font-medium text-[#FFF]">
                         Create Bag
                     </span>
@@ -45,7 +45,7 @@ export const Header = memo(() => {
                         <PlusIcon />
                     </span>
                 </button>
-                <button className="flex gap-[6px] justify-center items-center rounded-[12px] border-[1px] border-[#7752FF] w-[131px] h-[40px] px-[12px] py-[11px]">
+                <button className="flex gap-[6px] justify-center items-center rounded-[12px] border-[1px] border-[#7752FF] min-w-[131px] h-[40px] px-[12px] py-[11px]">
                     <span className="text-[14px] font-medium text-[#7752FF]">
                         Connect wallet
                     </span>
