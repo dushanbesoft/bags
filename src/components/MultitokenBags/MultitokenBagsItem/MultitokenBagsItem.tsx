@@ -9,12 +9,12 @@ import {
 
 export default function MultitokenBagsItem() {
     return (
-        <div className="w-full md:w-[442px] h-[314px] p-[16px] rounded-[16px] bg-[#141016] flex flex-col gap-[12px] md:min-h-[156px] shadow-content_animation overflow-hidden transition-all  ease-linear  will-change-transform hover:translate-y-[-4px] cursor-pointer">
+        <div className="w-full md:w-[442px] h-[288px] md:h-[314px] p-[16px] rounded-[16px] bg-[#141016] flex flex-col gap-[12px] md:min-h-[156px] shadow-content_animation overflow-hidden transition-all  ease-linear  will-change-transform hover:translate-y-[-4px] cursor-pointer">
             {/* Header Bag */}
             <div className="flex justify-between items-center h-[50px]">
                 <div className="flex gap-[8px]">
                     <img
-                        className="w-[50px] h-[50px] rounded-[12px]"
+                        className="w-[40px] h-[40px] md:w-[50px] md:h-[50px]  rounded-[12px]"
                         src="/avatar.png"
                     />
                     <div className="flex gap-[4px] items-center">
@@ -61,7 +61,7 @@ export default function MultitokenBagsItem() {
             </div>
 
             {/* Operating Part */}
-            <div className="bg-[#1C172B] border-[1px] border-[#2C2637] rounded-[12px] p-[12px] items-center h-[108px] flex flex-col gap-[12px] ">
+            <div className="bg-[#1C172B] border-[1px] border-[#2C2637] rounded-[16px] md:rounded-[12px] p-[8px] md:p-[12px] items-center h-[92px] md:h-[108px] flex flex-col gap-[8px] md:gap-[12px] ">
                 <div className="flex justify-between w-full items-center ">
                     <div className="flex gap-[8px] justify-center items-center">
                         <img
@@ -108,7 +108,7 @@ export default function MultitokenBagsItem() {
                     <div className="text-[14px] leading-[16px]">4 min ago</div>
                 </div>
 
-                <button className="w-[141px] h-[40px] rounded-[12px] bg-[#7752FF] hover:bg-[#5F41CC] transition-all ease-linear px-[10px] py-[2px] flex justify-center items-center gap-[6px]">
+                <button className="w-[120px] md:w-[141px] h-[40px] rounded-[12px] bg-[#7752FF] hover:bg-[#5F41CC] transition-all ease-linear px-[12px] py-[11px] md:px-[10px] md:py-[2px] flex justify-center items-center gap-[6px]">
                     <EnergyIcon />
                     <span className="text-[#FFF] font-semibold text-[14px] whitespace-nowrap">
                         Quick Buy

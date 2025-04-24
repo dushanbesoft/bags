@@ -5,6 +5,7 @@ export default function MultitokenBags() {
     return (
         <div className="flex gap-[16px] flex-wrap">
             <MultitokenBagsItem />
+            <MultitokenBagsItem />
         </div>
     );
 }

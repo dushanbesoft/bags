@@ -2,12 +2,12 @@ import { XIcon, UserIcon, LineIcon, EnergyIcon } from 'app/assets/images';
 
 export default function BagItem() {
     return (
-        <div className="w-full md:w-[442px] h-[266px] p-[16px] rounded-[16px] bg-[#141016] flex flex-col gap-[12px] md:min-h-[156px] shadow-content_animation overflow-hidden transition-all  ease-linear  will-change-transform hover:translate-y-[-4px] cursor-pointer">
+        <div className="w-full h-[248px] md:w-[442px] md:h-[266px] p-[16px] rounded-[16px] bg-[#141016] flex flex-col gap-[12px] md:min-h-[156px] shadow-content_animation overflow-hidden transition-all  ease-linear  will-change-transform hover:translate-y-[-4px] cursor-pointer">
             {/* Header Bag */}
             <div className="flex justify-between items-center h-[50px]">
                 <div className="flex gap-[8px]">
                     <img
-                        className="w-[50px] h-[50px] rounded-[12px]"
+                        className="w-[40px] h-[40px] md:w-[50px] md:h-[50px] rounded-[12px]"
                         src="/avatar.png"
                     />
                     <div className="flex gap-[4px] items-center">
@@ -45,7 +45,7 @@ export default function BagItem() {
                 </div>
                 <div className="flex flex-col justify-center items-center gap-[2px] w-1/2">
                     <div className="text-[#6B6682] text-[12px] leading-[14px] ">
-                        Creator's Performance (7d)
+                        Creator’s Perf.(7d)
                     </div>
                     <div className="text-[#38D07E] font-medium text-[16px] leading-[18px]">
                         +0.05%
