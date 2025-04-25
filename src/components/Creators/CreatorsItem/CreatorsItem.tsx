@@ -9,7 +9,7 @@ import {
 
 export default function CreatorItem() {
     return (
-        <div className="group relative w-full h-[126px]  md:w-[259px] md:h-[335px] rounded-[16px] flex flex-row md:flex-col items-center gap-[0px] md:gap-[12px] bg-[#141016] transition-all  ease-linear  will-change-transform md:hover:translate-y-[-4px] cursor-pointer ">
+        <div className="group relative w-full h-[126px]  md:w-[259px] md:h-[335px] rounded-[16px] flex flex-row md:flex-col items-center gap-[0px] md:gap-[12px] bg-[#141016] transition-all  ease-linear  will-change-transform md:hover:translate-y-[-4px] cursor-pointer border-[1px] border-[#2C2637] md:border-none ">
             <div className="">
                 <img
                     className="hidden md:flex w-[126px] h-[126px] md:w-[259px] md:h-[197px] rounded-t-[16px]"
@@ -42,7 +42,7 @@ export default function CreatorItem() {
                 </div>
             </div>
 
-            <div className="flex flex-col gap-[6px] md:gap-[8px] py-[12px] md:py-[0px] px-[12px] pb-[12px] w-full   ">
+            <div className="flex flex-col gap-[6px] md:gap-[8px] py-[8px] md:py-[0px] px-[8px] pb-[8px] w-full   ">
                 <div className="flex justify-between items-center h-[24px]">
                     <div className="text-[16px] font-semibold text-[#E5E3F2] leading-[18px]">
                         @KUTRAAR23

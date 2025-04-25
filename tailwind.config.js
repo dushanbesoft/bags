@@ -28,7 +28,7 @@ module.exports = {
             bg_transparent: '#00FF7F14',
         },
         screens: {
-            md: '678px',
+            md: '1157px',
             sm: '840px',
             m: '1157px',
             l: '1386px',

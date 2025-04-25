@@ -2,7 +2,7 @@ import { XIcon, UserIcon, LineIcon, EnergyIcon } from 'app/assets/images';
 
 export default function OneTokenBagsItem() {
     return (
-        <div className="w-full md:w-[442px] h-[248px] p-[16px] rounded-[16px] bg-[#141016] flex flex-col gap-[12px] md:min-h-[156px] shadow-content_animation overflow-hidden transition-all  ease-linear  will-change-transform md:hover:translate-y-[-4px] cursor-pointer">
+        <div className="w-full md:w-[442px] h-[248px] md:h-[266px] p-[16px] rounded-[16px] bg-[#141016] flex flex-col gap-[12px] md:min-h-[156px] shadow-content_animation overflow-hidden transition-all  ease-linear  will-change-transform md:hover:translate-y-[-4px] cursor-pointer">
             {/* Header Bag */}
             <div className="flex justify-between items-center h-[50px]">
                 <div className="flex gap-[8px]">
